@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.a_navbar{
+    color: white;
+    margin-left: 15px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.news{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.news img {
+    width: 99%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.news span{
+    color: blue;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.news span:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+
+}
+.news h3 {
+    margin-top: 30px;
+    color: white;
+}
+.news h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.news .div_back{
+    background-color: rgb(37,37,37);
+}
+.s {
+    background-color: #252525;
+    color: white;
+}
+
+.section_two p {
+    font-size: 30px;
+}
+.section_two img{
+    height: 250px;
+}
+.section_two span{
+    background-color: yellow;
+    width: fit-content;
+    color: black;
+    margin-right: 10px;
+    padding: 6px 2px ;
+}
+.section_two h5{
+    color:blue;
+}
+.section_three{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section_three .div_background{
+    background-color: #252525;
+    color: white;
+    height: 100%;
+}
+.section_three .div_background img{
+    height: 300px;
+    background-position: center;
+}
+.section_three h5{
+    color: blue;
+    font-size: 17px;
+    font-weight: 20;
+}
+footer {
+    background-color: #252525;
+    color: white;
+    height: 500px;
+    width: 100%;
+    margin-top: 80px;
+}
+footer .ya {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+}
+footer ul .li_ya {
+    margin-right: 30px ;
+}
+footer ul .li_m:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer .img_footer {
+    width: 15%;
+}
+@media (max-width: 510px) { 
+    footer .ya{
+        display: none;
+    }
+    footer ul li {
+        text-align: center;
+        margin: 10px;
+    }
+    footer{
+        height: 100%;
+    }
+ }
